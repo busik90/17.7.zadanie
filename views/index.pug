@@ -1,0 +1,12 @@
+doctype html
+html(lang="pl")
+  head
+    meta(charset="UTF-8")
+    title Google Login
+
+    style
+      include ./css/index.css
+  body
+    h1 Witaj #{user} :)
+    form.box(action="http://localhost:3000/logged")
+      input.submit(type="submit" value="Zarejestruj z Google OAuth 2.0")

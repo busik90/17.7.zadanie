@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+
+  font-family: sans-serif;
+  
+  color: white;
+  background-color: #232323;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+h1 {
+  width: 100vw;
+  height: auto;
+  margin: 30px 10px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.box {
+  min-width: 400px;
+  padding: 10px 15px;
+}
+
+div.box {
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.submit {
+  width: 400px;
+  height: 50px;
+  margin: 10px 0;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-color: rgba(46, 81, 255, 0.864);
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+

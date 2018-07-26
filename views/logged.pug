@@ -1,0 +1,13 @@
+doctype html
+html(lang="pl")
+  head
+    meta(charset="UTF-8")
+    title Google Login
+
+    style
+      include ./css/index.css    
+  body
+    h1 Twój profil Google to:
+    div.box
+      p id: #{user.id}
+      p name: #{user.displayName}
